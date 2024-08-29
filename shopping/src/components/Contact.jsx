@@ -5,7 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 export default function Contact() {
   return (
     <>
-    <div className='contact' style={{position:"fixed",bottom:0}}>
+    <div className='contact' style={{position:"relative",bottom:0}}>
     <div className='contacts'>
       <div className='contact_heading'>CONTACT</div>
       <div className='touch'>GET IN TOUCH</div>
