@@ -1,9 +1,15 @@
 {
-    "version": 2,
-    "rewrites": [
+    "builds": [
       {
-        "source": "/(.*)",
-        "destination": "/index.html"
+        "src": "src/**/*",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "dist"
+        }
       }
-    ]
+    ],
+    "scripts": {
+      "build": "vite build"
+    }
   }
+  
